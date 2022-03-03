@@ -11,9 +11,10 @@ if img is None:
     
 cv.imshow('image',img)
 
-k = cv.waitKey(1000)
+k = cv.waitKey(0)   
 
 if k == ord('s'):
-    cv.imwrite('deer_copy.jpg',img)
+    # cv.imwrite('deer_copy.jpg',img)
     print('Image saved')
     
+                        
