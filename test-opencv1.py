@@ -29,7 +29,7 @@ def my_filled_circle(img, center):
               line_type)
     
     
-atom_window = "Atom Drawing"
+atom_window = "Atom Ellipse"
 
 size = W, W, 3
 atom_image = np.zeros(size, dtype=np.uint8)
